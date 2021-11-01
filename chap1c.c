@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Needed for printf
 
 int swap_entries(int s[], int n, int i, int j)
 {
