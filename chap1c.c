@@ -5,9 +5,8 @@ int swap_entries(int s[], int n, int i, int j)
     if ( (i<n) && (j<n) )
     {
         int x = s[i];
-        int y = s[j];
-        s[i] = y;
-        s[j] = x ;
+        s[i] = s[j];
+        s[j] = x;
         return 0;
     }
     else return -1;
